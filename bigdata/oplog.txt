@@ -1,0 +1,5090 @@
+[
+  {
+    "op": "c",
+    "ns": "mongodbVSCodePlaygroundDB.$cmd",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "create": "sales",
+      "idIndex": {
+        "v": 2,
+        "key": {
+          "_id": 1
+        },
+        "name": "_id_"
+      }
+    },
+    "ts": {
+      "$timestamp": "7422114039116857379"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:33:09.987Z"
+  },
+  {
+    "lsid": {
+      "id": "00fc7b76-627e-4257-bdec-18b0d024a5f2",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a564ae7d39c1a92e4813",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a564ae7d39c1a92e4813"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422114039116857380"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:33:09.987Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "00fc7b76-627e-4257-bdec-18b0d024a5f2",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a564ae7d39c1a92e4814",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a564ae7d39c1a92e4814"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422114039116857381"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:33:09.987Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422114039116857380"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "00fc7b76-627e-4257-bdec-18b0d024a5f2",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a564ae7d39c1a92e4815",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a564ae7d39c1a92e4815"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422114039116857382"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:33:09.987Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422114039116857381"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "00fc7b76-627e-4257-bdec-18b0d024a5f2",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a564ae7d39c1a92e4816",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6700a564ae7d39c1a92e4816"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422114039116857383"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:33:09.987Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422114039116857382"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "00fc7b76-627e-4257-bdec-18b0d024a5f2",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a564ae7d39c1a92e4817",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6700a564ae7d39c1a92e4817"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422114039116857384"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:33:09.987Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422114039116857383"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "00fc7b76-627e-4257-bdec-18b0d024a5f2",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a564ae7d39c1a92e4818",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6700a564ae7d39c1a92e4818"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422114039116857385"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:33:09.987Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422114039116857384"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "00fc7b76-627e-4257-bdec-18b0d024a5f2",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a564ae7d39c1a92e4819",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a564ae7d39c1a92e4819"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422114039116857386"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:33:09.987Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422114039116857385"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "00fc7b76-627e-4257-bdec-18b0d024a5f2",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a564ae7d39c1a92e481a",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6700a564ae7d39c1a92e481a"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422114039116857387"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:33:09.987Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422114039116857386"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b46047b1-f29f-4f99-b4f4-42b817f4bb13",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a6ccf20a16c638998129",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a6ccf20a16c638998129"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422115585305083924"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:39:09.723Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b46047b1-f29f-4f99-b4f4-42b817f4bb13",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a6ccf20a16c63899812a",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a6ccf20a16c63899812a"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422115585305083925"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:39:09.723Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422115585305083924"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b46047b1-f29f-4f99-b4f4-42b817f4bb13",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a6ccf20a16c63899812b",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a6ccf20a16c63899812b"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422115585305083926"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:39:09.723Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422115585305083925"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b46047b1-f29f-4f99-b4f4-42b817f4bb13",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a6ccf20a16c63899812c",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6700a6ccf20a16c63899812c"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422115585305083927"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:39:09.723Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422115585305083926"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b46047b1-f29f-4f99-b4f4-42b817f4bb13",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a6ccf20a16c63899812d",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6700a6ccf20a16c63899812d"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422115585305083928"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:39:09.723Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422115585305083927"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b46047b1-f29f-4f99-b4f4-42b817f4bb13",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a6ccf20a16c63899812e",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6700a6ccf20a16c63899812e"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422115585305083929"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:39:09.723Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422115585305083928"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b46047b1-f29f-4f99-b4f4-42b817f4bb13",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a6ccf20a16c63899812f",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a6ccf20a16c63899812f"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422115585305083930"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:39:09.723Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422115585305083929"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b46047b1-f29f-4f99-b4f4-42b817f4bb13",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a6ccf20a16c638998130",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6700a6ccf20a16c638998130"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422115585305083931"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:39:09.723Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422115585305083930"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "06347745-6948-4e86-8f58-448e70a40e1d",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7c3540ee2df4cdd6f08",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a7c3540ee2df4cdd6f08"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422116646162006030"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:16.395Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "06347745-6948-4e86-8f58-448e70a40e1d",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7c3540ee2df4cdd6f09",
+      "item": "jkl",
+      "price": 10,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a7c3540ee2df4cdd6f09"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422116646162006031"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:16.395Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116646162006030"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "06347745-6948-4e86-8f58-448e70a40e1d",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7c3540ee2df4cdd6f0a",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a7c3540ee2df4cdd6f0a"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422116646162006032"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:16.395Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116646162006031"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "06347745-6948-4e86-8f58-448e70a40e1d",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7c3540ee2df4cdd6f0b",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6700a7c3540ee2df4cdd6f0b"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422116646162006033"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:16.395Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116646162006032"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "06347745-6948-4e86-8f58-448e70a40e1d",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7c3540ee2df4cdd6f0c",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6700a7c3540ee2df4cdd6f0c"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422116646162006034"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:16.395Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116646162006033"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "06347745-6948-4e86-8f58-448e70a40e1d",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7c3540ee2df4cdd6f0d",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6700a7c3540ee2df4cdd6f0d"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422116646162006035"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:16.395Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116646162006034"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "06347745-6948-4e86-8f58-448e70a40e1d",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7c3540ee2df4cdd6f0e",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a7c3540ee2df4cdd6f0e"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422116646162006036"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:16.395Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116646162006035"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "06347745-6948-4e86-8f58-448e70a40e1d",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7c3540ee2df4cdd6f0f",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6700a7c3540ee2df4cdd6f0f"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422116646162006037"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:16.395Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116646162006036"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "90d9829a-845c-44cf-8967-8d5408d0b8e7",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7d1490c71749ccd59ca",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a7d1490c71749ccd59ca"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422116710586515457"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:31.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "90d9829a-845c-44cf-8967-8d5408d0b8e7",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7d1490c71749ccd59cb",
+      "item": "jkl",
+      "price": 10,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a7d1490c71749ccd59cb"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422116710586515458"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:31.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116710586515457"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "90d9829a-845c-44cf-8967-8d5408d0b8e7",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7d1490c71749ccd59cc",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a7d1490c71749ccd59cc"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422116710586515459"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:31.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116710586515458"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "90d9829a-845c-44cf-8967-8d5408d0b8e7",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7d1490c71749ccd59cd",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6700a7d1490c71749ccd59cd"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422116710586515460"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:31.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116710586515459"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "90d9829a-845c-44cf-8967-8d5408d0b8e7",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7d1490c71749ccd59ce",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6700a7d1490c71749ccd59ce"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422116710586515461"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:31.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116710586515460"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "90d9829a-845c-44cf-8967-8d5408d0b8e7",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7d1490c71749ccd59cf",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6700a7d1490c71749ccd59cf"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422116710586515462"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:31.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116710586515461"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "90d9829a-845c-44cf-8967-8d5408d0b8e7",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7d1490c71749ccd59d0",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6700a7d1490c71749ccd59d0"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422116710586515463"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:31.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116710586515462"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "90d9829a-845c-44cf-8967-8d5408d0b8e7",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "_id": "6700a7d1490c71749ccd59d1",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6700a7d1490c71749ccd59d1"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422116710586515464"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T02:43:31.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422116710586515463"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "op": "u",
+    "ns": "mongodbVSCodePlaygroundDB.sales",
+    "ui": "c758c6c8-aaa4-43ed-a127-0af1835847f7",
+    "o": {
+      "$v": 2,
+      "diff": {
+        "u": {
+          "item": "abj",
+          "price": 511,
+          "quantity": 11
+        }
+      }
+    },
+    "o2": {
+      "_id": "6700a7c3540ee2df4cdd6f0b"
+    },
+    "ts": {
+      "$timestamp": "7422129934790819859"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:34:50.474Z"
+  },
+  {
+    "op": "c",
+    "ns": "mongodbVSCodePlaygroundDB.$cmd",
+    "ui": "f7b6582c-b0a5-4e2f-b569-22c3abfa078d",
+    "o": {
+      "create": "store",
+      "idIndex": {
+        "v": 2,
+        "key": {
+          "_id": 1
+        },
+        "name": "_id_"
+      }
+    },
+    "ts": {
+      "$timestamp": "7422134388671905795"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:52:07.085Z"
+  },
+  {
+    "lsid": {
+      "id": "de86a888-97fd-4ad3-a8d5-d3b87deb8e32",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.store",
+    "ui": "f7b6582c-b0a5-4e2f-b569-22c3abfa078d",
+    "o": {
+      "_id": "6700b7e5a9d913e54c8abeb7",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700b7e5a9d913e54c8abeb7"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422134388671905796"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:52:07.085Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "de86a888-97fd-4ad3-a8d5-d3b87deb8e32",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.store",
+    "ui": "f7b6582c-b0a5-4e2f-b569-22c3abfa078d",
+    "o": {
+      "_id": "6700b7e5a9d913e54c8abeb8",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700b7e5a9d913e54c8abeb8"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422134388671905797"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:52:07.085Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422134388671905796"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "de86a888-97fd-4ad3-a8d5-d3b87deb8e32",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.store",
+    "ui": "f7b6582c-b0a5-4e2f-b569-22c3abfa078d",
+    "o": {
+      "_id": "6700b7e5a9d913e54c8abeb9",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700b7e5a9d913e54c8abeb9"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422134388671905798"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:52:07.085Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422134388671905797"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "de86a888-97fd-4ad3-a8d5-d3b87deb8e32",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.store",
+    "ui": "f7b6582c-b0a5-4e2f-b569-22c3abfa078d",
+    "o": {
+      "_id": "6700b7e5a9d913e54c8abeba",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6700b7e5a9d913e54c8abeba"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422134388671905799"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:52:07.085Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422134388671905798"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "de86a888-97fd-4ad3-a8d5-d3b87deb8e32",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.store",
+    "ui": "f7b6582c-b0a5-4e2f-b569-22c3abfa078d",
+    "o": {
+      "_id": "6700b7e5a9d913e54c8abebb",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6700b7e5a9d913e54c8abebb"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422134388671905800"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:52:07.085Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422134388671905799"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "de86a888-97fd-4ad3-a8d5-d3b87deb8e32",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.store",
+    "ui": "f7b6582c-b0a5-4e2f-b569-22c3abfa078d",
+    "o": {
+      "_id": "6700b7e5a9d913e54c8abebc",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6700b7e5a9d913e54c8abebc"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422134388671905801"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:52:07.085Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422134388671905800"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "de86a888-97fd-4ad3-a8d5-d3b87deb8e32",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.store",
+    "ui": "f7b6582c-b0a5-4e2f-b569-22c3abfa078d",
+    "o": {
+      "_id": "6700b7e5a9d913e54c8abebd",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6700b7e5a9d913e54c8abebd"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422134388671905802"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:52:07.085Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422134388671905801"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "de86a888-97fd-4ad3-a8d5-d3b87deb8e32",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "mongodbVSCodePlaygroundDB.store",
+    "ui": "f7b6582c-b0a5-4e2f-b569-22c3abfa078d",
+    "o": {
+      "_id": "6700b7e5a9d913e54c8abebe",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6700b7e5a9d913e54c8abebe"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422134388671905803"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T03:52:07.085Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422134388671905802"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "op": "c",
+    "ns": "jawa.$cmd",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "create": "shop",
+      "idIndex": {
+        "v": 2,
+        "key": {
+          "_id": 1
+        },
+        "name": "_id_"
+      }
+    },
+    "ts": {
+      "$timestamp": "7422149476892016654"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T04:50:40.295Z"
+  },
+  {
+    "lsid": {
+      "id": "28460a61-19d7-4899-be57-1bf12f0bd85b",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700c59e9cd9873000c73bf8",
+      "item": "abc",
+      "price": 10,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700c59e9cd9873000c73bf8"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422149476892016656"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T04:50:40.295Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "28460a61-19d7-4899-be57-1bf12f0bd85b",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700c6bf9cd9873000c73bf9",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700c6bf9cd9873000c73bf9"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422150713842597900"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T04:55:28.449Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "28460a61-19d7-4899-be57-1bf12f0bd85b",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 3,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700c8609cd9873000c73bfa",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700c8609cd9873000c73bfa"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422152504843960380"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:02:25.696Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "28460a61-19d7-4899-be57-1bf12f0bd85b",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 3,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700c8609cd9873000c73bfb",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700c8609cd9873000c73bfb"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422152504843960381"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:02:25.696Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422152504843960380"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "11ab5e8f-b8e4-4013-a080-71262c033e0a",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075945",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cb9eb86acb47eb075945"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422156073961783303"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:16:16.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "11ab5e8f-b8e4-4013-a080-71262c033e0a",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075946",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cb9eb86acb47eb075946"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422156073961783304"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:16:16.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156073961783303"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "11ab5e8f-b8e4-4013-a080-71262c033e0a",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075947",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cb9eb86acb47eb075947"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422156073961783305"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:16:16.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156073961783304"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "11ab5e8f-b8e4-4013-a080-71262c033e0a",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075948",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6700cb9eb86acb47eb075948"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422156073961783306"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:16:16.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156073961783305"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "11ab5e8f-b8e4-4013-a080-71262c033e0a",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075949",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6700cb9eb86acb47eb075949"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422156073961783307"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:16:16.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156073961783306"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "11ab5e8f-b8e4-4013-a080-71262c033e0a",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb07594a",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6700cb9eb86acb47eb07594a"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422156073961783308"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:16:16.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156073961783307"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "11ab5e8f-b8e4-4013-a080-71262c033e0a",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb07594b",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cb9eb86acb47eb07594b"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422156073961783309"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:16:16.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156073961783308"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "11ab5e8f-b8e4-4013-a080-71262c033e0a",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb07594c",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6700cb9eb86acb47eb07594c"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422156073961783310"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:16:16.096Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156073961783309"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "ab7f4a09-0786-4332-b84f-b6d3c55f0fd4",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce4c",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cc515ba42b7a63e9ce4c"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422156842760929289"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:19:15.313Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "ab7f4a09-0786-4332-b84f-b6d3c55f0fd4",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce4d",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cc515ba42b7a63e9ce4d"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422156842760929290"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:19:15.313Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156842760929289"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "ab7f4a09-0786-4332-b84f-b6d3c55f0fd4",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce4e",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cc515ba42b7a63e9ce4e"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422156842760929291"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:19:15.313Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156842760929290"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "ab7f4a09-0786-4332-b84f-b6d3c55f0fd4",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce4f",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6700cc515ba42b7a63e9ce4f"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422156842760929292"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:19:15.313Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156842760929291"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "ab7f4a09-0786-4332-b84f-b6d3c55f0fd4",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce50",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6700cc515ba42b7a63e9ce50"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422156842760929293"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:19:15.313Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156842760929292"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "ab7f4a09-0786-4332-b84f-b6d3c55f0fd4",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce51",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6700cc515ba42b7a63e9ce51"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422156842760929294"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:19:15.313Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156842760929293"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "ab7f4a09-0786-4332-b84f-b6d3c55f0fd4",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce52",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cc515ba42b7a63e9ce52"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422156842760929295"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:19:15.313Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156842760929294"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "ab7f4a09-0786-4332-b84f-b6d3c55f0fd4",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce53",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6700cc515ba42b7a63e9ce53"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422156842760929296"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:19:15.313Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422156842760929295"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700c59e9cd9873000c73bf8"
+    },
+    "ts": {
+      "$timestamp": "7422157225013018652"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:20:44.593Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700c6bf9cd9873000c73bf9"
+    },
+    "ts": {
+      "$timestamp": "7422157255077789720"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:20:51.366Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700c8609cd9873000c73bfa"
+    },
+    "ts": {
+      "$timestamp": "7422157293732495404"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:21:00.927Z"
+  },
+  {
+    "lsid": {
+      "id": "b760c187-e903-4a3c-9f08-b5f14d5e74c6",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700ccd0cb4aadb8b50ae234",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700ccd0cb4aadb8b50ae234"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422157388221775885"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:21:22.340Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b760c187-e903-4a3c-9f08-b5f14d5e74c6",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700ccd0cb4aadb8b50ae235",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700ccd0cb4aadb8b50ae235"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422157388221775886"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:21:22.340Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422157388221775885"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b760c187-e903-4a3c-9f08-b5f14d5e74c6",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700ccd0cb4aadb8b50ae236",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700ccd0cb4aadb8b50ae236"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422157388221775887"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:21:22.340Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422157388221775886"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b760c187-e903-4a3c-9f08-b5f14d5e74c6",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700ccd0cb4aadb8b50ae237",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6700ccd0cb4aadb8b50ae237"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422157388221775888"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:21:22.340Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422157388221775887"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b760c187-e903-4a3c-9f08-b5f14d5e74c6",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700ccd0cb4aadb8b50ae238",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6700ccd0cb4aadb8b50ae238"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422157388221775889"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:21:22.340Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422157388221775888"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b760c187-e903-4a3c-9f08-b5f14d5e74c6",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700ccd0cb4aadb8b50ae239",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6700ccd0cb4aadb8b50ae239"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422157388221775890"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:21:22.340Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422157388221775889"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b760c187-e903-4a3c-9f08-b5f14d5e74c6",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700ccd0cb4aadb8b50ae23a",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6700ccd0cb4aadb8b50ae23a"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422157388221775891"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:21:22.340Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422157388221775890"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "b760c187-e903-4a3c-9f08-b5f14d5e74c6",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700ccd0cb4aadb8b50ae23b",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6700ccd0cb4aadb8b50ae23b"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422157388221775892"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:21:22.340Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422157388221775891"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "69973a38-9c7c-44a8-ad53-dcf7684aae9c",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cd63ccd8d253e3e69632",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cd63ccd8d253e3e69632"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422158019581968386"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:23:49.045Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "69973a38-9c7c-44a8-ad53-dcf7684aae9c",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cd63ccd8d253e3e69633",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cd63ccd8d253e3e69633"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422158019581968387"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:23:49.045Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422158019581968386"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "69973a38-9c7c-44a8-ad53-dcf7684aae9c",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cd63ccd8d253e3e69634",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cd63ccd8d253e3e69634"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422158019581968388"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:23:49.045Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422158019581968387"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "69973a38-9c7c-44a8-ad53-dcf7684aae9c",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cd63ccd8d253e3e69635",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6700cd63ccd8d253e3e69635"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422158019581968389"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:23:49.045Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422158019581968388"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "69973a38-9c7c-44a8-ad53-dcf7684aae9c",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cd63ccd8d253e3e69636",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6700cd63ccd8d253e3e69636"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422158019581968390"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:23:49.045Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422158019581968389"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "69973a38-9c7c-44a8-ad53-dcf7684aae9c",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cd63ccd8d253e3e69637",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6700cd63ccd8d253e3e69637"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422158019581968391"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:23:49.045Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422158019581968390"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "69973a38-9c7c-44a8-ad53-dcf7684aae9c",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cd63ccd8d253e3e69638",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6700cd63ccd8d253e3e69638"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422158019581968392"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:23:49.045Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422158019581968391"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "69973a38-9c7c-44a8-ad53-dcf7684aae9c",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cd63ccd8d253e3e69639",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6700cd63ccd8d253e3e69639"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422158019581968393"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T05:23:49.045Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422158019581968392"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "f6784dff-e2eb-456e-8fda-3f952a86dbab",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703a3",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6701125afbccd1349bb703a3"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422233838639644681"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:18:02.466Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "f6784dff-e2eb-456e-8fda-3f952a86dbab",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703a4",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6701125afbccd1349bb703a4"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422233838639644682"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:18:02.466Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422233838639644681"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "f6784dff-e2eb-456e-8fda-3f952a86dbab",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703a5",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6701125afbccd1349bb703a5"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422233838639644683"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:18:02.466Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422233838639644682"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "f6784dff-e2eb-456e-8fda-3f952a86dbab",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703a6",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6701125afbccd1349bb703a6"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422233838639644684"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:18:02.466Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422233838639644683"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "f6784dff-e2eb-456e-8fda-3f952a86dbab",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703a7",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6701125afbccd1349bb703a7"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422233838639644685"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:18:02.466Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422233838639644684"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "f6784dff-e2eb-456e-8fda-3f952a86dbab",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703a8",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6701125afbccd1349bb703a8"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422233838639644686"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:18:02.466Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422233838639644685"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "f6784dff-e2eb-456e-8fda-3f952a86dbab",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703a9",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6701125afbccd1349bb703a9"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422233838639644687"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:18:02.466Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422233838639644686"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "f6784dff-e2eb-456e-8fda-3f952a86dbab",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703aa",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6701125afbccd1349bb703aa"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422233838639644688"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:18:02.466Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422233838639644687"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "96894ccf-b4e1-490d-aa67-644a16b9db71",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701132db6538b1614c105f6",
+      "item": "abc",
+      "price": 10,
+      "quantity": 2,
+      "date": "2014-03-01T08:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6701132db6538b1614c105f6"
+    },
+    "stmtId": 0,
+    "ts": {
+      "$timestamp": "7422234749172711425"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:21:34.047Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "0"
+      },
+      "t": {
+        "low": -1,
+        "high": -1,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "96894ccf-b4e1-490d-aa67-644a16b9db71",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701132db6538b1614c105f7",
+      "item": "jkl",
+      "price": 20,
+      "quantity": 1,
+      "date": "2014-03-01T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6701132db6538b1614c105f7"
+    },
+    "stmtId": 1,
+    "ts": {
+      "$timestamp": "7422234749172711426"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:21:34.047Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422234749172711425"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "96894ccf-b4e1-490d-aa67-644a16b9db71",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701132db6538b1614c105f8",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 10,
+      "date": "2014-03-15T09:00:00.000Z"
+    },
+    "o2": {
+      "_id": "6701132db6538b1614c105f8"
+    },
+    "stmtId": 2,
+    "ts": {
+      "$timestamp": "7422234749172711427"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:21:34.047Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422234749172711426"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "96894ccf-b4e1-490d-aa67-644a16b9db71",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701132db6538b1614c105f9",
+      "item": "xyz",
+      "price": 5,
+      "quantity": 20,
+      "date": "2014-04-04T11:21:39.736Z"
+    },
+    "o2": {
+      "_id": "6701132db6538b1614c105f9"
+    },
+    "stmtId": 3,
+    "ts": {
+      "$timestamp": "7422234749172711428"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:21:34.047Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422234749172711427"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "96894ccf-b4e1-490d-aa67-644a16b9db71",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701132db6538b1614c105fa",
+      "item": "abc",
+      "price": 10,
+      "quantity": 10,
+      "date": "2014-04-04T21:23:13.331Z"
+    },
+    "o2": {
+      "_id": "6701132db6538b1614c105fa"
+    },
+    "stmtId": 4,
+    "ts": {
+      "$timestamp": "7422234749172711429"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:21:34.047Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422234749172711428"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "96894ccf-b4e1-490d-aa67-644a16b9db71",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701132db6538b1614c105fb",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 5,
+      "date": "2015-06-04T05:08:13.000Z"
+    },
+    "o2": {
+      "_id": "6701132db6538b1614c105fb"
+    },
+    "stmtId": 5,
+    "ts": {
+      "$timestamp": "7422234749172711430"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:21:34.047Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422234749172711429"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "96894ccf-b4e1-490d-aa67-644a16b9db71",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701132db6538b1614c105fc",
+      "item": "def",
+      "price": 7.5,
+      "quantity": 10,
+      "date": "2015-09-10T08:43:00.000Z"
+    },
+    "o2": {
+      "_id": "6701132db6538b1614c105fc"
+    },
+    "stmtId": 6,
+    "ts": {
+      "$timestamp": "7422234749172711431"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:21:34.047Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422234749172711430"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "lsid": {
+      "id": "96894ccf-b4e1-490d-aa67-644a16b9db71",
+      "uid": "ddqot68vLpBUPnOuqFj2cdClv/dv/vF9ZVSwknYHEsE="
+    },
+    "txnNumber": {
+      "low": 1,
+      "high": 0,
+      "unsigned": false
+    },
+    "op": "i",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701132db6538b1614c105fd",
+      "item": "abc",
+      "price": 10,
+      "quantity": 5,
+      "date": "2016-02-06T20:20:13.000Z"
+    },
+    "o2": {
+      "_id": "6701132db6538b1614c105fd"
+    },
+    "stmtId": 7,
+    "ts": {
+      "$timestamp": "7422234749172711432"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T10:21:34.047Z",
+    "prevOpTime": {
+      "ts": {
+        "$timestamp": "7422234749172711431"
+      },
+      "t": {
+        "low": 819,
+        "high": 0,
+        "unsigned": false
+      }
+    }
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700c8609cd9873000c73bfb"
+    },
+    "ts": {
+      "$timestamp": "7422292525072777231"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:05:46.259Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075945"
+    },
+    "ts": {
+      "$timestamp": "7422292555137548289"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:05:53.046Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075946"
+    },
+    "ts": {
+      "$timestamp": "7422292580907352066"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:05:59.108Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075947"
+    },
+    "ts": {
+      "$timestamp": "7422292606677155861"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:06:05.401Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075948"
+    },
+    "ts": {
+      "$timestamp": "7422292641036894242"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:06:13.902Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb075949"
+    },
+    "ts": {
+      "$timestamp": "7422292666806698015"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:06:19.797Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb07594a"
+    },
+    "ts": {
+      "$timestamp": "7422292701166436378"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:06:27.701Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb07594b"
+    },
+    "ts": {
+      "$timestamp": "7422292731231207426"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:06:34.064Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cb9eb86acb47eb07594c"
+    },
+    "ts": {
+      "$timestamp": "7422292821425520674"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:06:55.746Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce4c"
+    },
+    "ts": {
+      "$timestamp": "7422292851490291716"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:07:02.079Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce4d"
+    },
+    "ts": {
+      "$timestamp": "7422292890144997385"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:07:11.309Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce4e"
+    },
+    "ts": {
+      "$timestamp": "7422292911619833894"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:07:16.992Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce4f"
+    },
+    "ts": {
+      "$timestamp": "7422292941684604943"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:07:23.461Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce50"
+    },
+    "ts": {
+      "$timestamp": "7422292976044343309"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:07:31.406Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce51"
+    },
+    "ts": {
+      "$timestamp": "7422293001814147095"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:07:37.735Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6700cc515ba42b7a63e9ce52"
+    },
+    "ts": {
+      "$timestamp": "7422293070533623831"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:07:53.771Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703a7"
+    },
+    "ts": {
+      "$timestamp": "7422293139253100558"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:08:09.276Z"
+  },
+  {
+    "op": "d",
+    "ns": "jawa.shop",
+    "ui": "50aea5ac-881b-4ec0-97d3-f7e0d92b3b38",
+    "o": {
+      "_id": "6701125afbccd1349bb703a8"
+    },
+    "ts": {
+      "$timestamp": "7422293169317871636"
+    },
+    "t": {
+      "low": 819,
+      "high": 0,
+      "unsigned": false
+    },
+    "v": {
+      "low": 2,
+      "high": 0,
+      "unsigned": false
+    },
+    "wall": "2024-10-05T14:08:16.541Z"
+  }
+]

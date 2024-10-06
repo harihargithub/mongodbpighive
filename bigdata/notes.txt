@@ -1,0 +1,715 @@
+
+(base) PS C:\Users\nhari\OneDrive\Documents\sencha\mongodbpighive\bigdata> - Opened this fresh folder in VS Code where I have installed MongoDB extension and want to perform study experiment on Mongo DB om Hadoop enviornment
+
+**Connect to MongoDB Atlas**:
+   - Use the `mongosh` command to connect to your MongoDB Atlas instance using the provided connection string.
+   - Example command to connect to MongoDB Atlas:
+     ```sh
+     mongosh "mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/jawa?retryWrites=true&w=majority"
+
+npm install mongodb
+node shopinsertrec.js
+(base) PS C:\Users\nhari\OneDrive\Documents\sencha\mongodbpighive> node insertrecshop.js
+
+Mongosh(2.0.0) lets you connect to MongoDB to work with your data and configure your database. 2.0.0 or greater is required to work with Atlas Stream Processing
+
+2. Run your connection string in your command line
+Use this connection string in your application
+
+mongosh "mongodb+srv://clusterabj.dqz87.mongodb.net/" --apiVersion 1 --username nharihar1
+
+You will be prompted for the password for the Database User, nharihar1. When entering your password, make sure all special characters are 
+URL encoded
+(base) PS C:\Program Files\mongosh-2.3.1-win32-x64\mongosh-2.3.1-win32-x64\bin> mongosh "mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/" --apiVersion 1
+
+Response:
+Current Mongosh Log ID: 67011880545edfea07c73bf7
+Connecting to:          mongodb+srv://<credentials>@clusterabj.dqz87.mongodb.net/?appName=mongosh+2.3.1
+Using MongoDB:          7.0.14 (API Version 1)
+Using Mongosh:          2.3.1
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+Set Env Variable from PowerShell prompt:
+setx PATH "$($env:PATH);<path-to-mongosh>"
+setx PATH "$($env:PATH);C:\Program Files\mongosh-2.3.1-win32-x64\mongosh-2.3.1-win32-x64\bin"
+
+Temporarily adding Mongosh to PATH:
+$env:PATH += ";C:\Program Files\mongosh-2.3.1-win32-x64\mongosh-2.3.1-win32-x64\bin"
+
+mongosh --version
+
+mongosh "mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/jawa?retryWrites=true&w=majority"
+
+Response:
+(base) PS C:\Users\nhari\OneDrive\Documents\sencha\mongodbpighive> mongosh "mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/jawa?retryWrites=true&w=majority"
+Current Mongosh Log ID: 67011b1024f4f53a5cc73bf7
+Connecting to:          mongodb+srv://<credentials>@clusterabj.dqz87.mongodb.net/jawa?retryWrites=true&w=majority&appName=mongosh+2.3.1
+Using MongoDB:          7.0.14
+Using Mongosh:          2.3.1
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+Atlas atlas-1116e1-shard-0 [primary] jawa>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+Atlas atlas-1116e1-shard-0 [primary] jawa> show dbs
+jawa                        72.00 KiB
+mongodbVSCodePlaygroundDB  112.00 KiB
+admin                      348.00 KiB
+local                       15.98 GiB
+Atlas atlas-1116e1-shard-0 [primary] jawa> use jawa
+already on db jawa
+Atlas atlas-1116e1-shard-0 [primary] jawa> show collections
+shop
+
+
+Interactiing with MongoDB from a Hadoop environment/typically using tools like Apache Hive, Apache Pig etc. for data processing. To integrate MongoDB with Hadoop, want to use Atlas MongoDB Hadoop Connector. This connector allows to use MongoDB as a source or sink for Hadoop jobs. db name is abj.bigdata - Storage Size: 4KBLogical Data Size: 0B otal Documents: 0 Indexes Total Size: 4KB. 
+https://cloud.mongodb.com/v2/66ff915ab2c9e151b2573648#/metrics/replicaSet/66ff92d3b47c310ba877ed58/explorer/abj/bigdata/find
+
+
+### Step-by-Step Approach to Integrate MongoDB with Hadoop Using Atlas MongoDB Hadoop Connector
+
+#### Step 1: Set Up MongoDB Atlas
+1. **Create a MongoDB Atlas Account**: If you don't have one, sign up at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+2. **Create a Cluster**: Follow the instructions to create a new cluster.
+3. **Load Sample Data**: Optionally, you can load sample data into your cluster.
+4. **Get Connection String**: Obtain the connection string for your MongoDB cluster.
+
+#### Step 2: Set Up Hadoop Environment
+1. **Install Hadoop**: Download and install Hadoop on your local machine or set up a Hadoop cluster.
+2. **Configure Hadoop**: Ensure Hadoop is properly configured and running.
+
+#### Step 3: Download and Configure MongoDB Hadoop Connector
+1. **Download Connector**: Download the MongoDB Hadoop Connector from the [MongoDB Connector for Hadoop](https://www.mongodb.com/products/hadoop) page.
+2. **Add Connector to Hadoop**: Place the connector JAR files in the Hadoop classpath.
+
+#### Step 4: Write a Sample Hadoop Job
+1. **Create a Hadoop Job**: Write a sample Hadoop job that uses MongoDB as a source or sink.
+2. **Configure Job**: Configure the job to use the MongoDB Hadoop Connector.
+
+#### Step 5: Run the Hadoop Job
+1. **Submit Job**: Use the Hadoop command-line tools to submit and run your job.
+2. **Monitor Job**: Monitor the job to ensure it completes successfully.
+
+#### Step 6: Optional - Use Frameworks like Spring Boot or Flask
+1. **Spring Boot**: If you prefer Java, you can use Spring Boot to create a REST API that interacts with MongoDB and Hadoop.
+2. **Flask**: If you prefer Python, you can use Flask to create a REST API that interacts with MongoDB and Hadoop.
+
+### Example: Running a Hadoop Job with MongoDB Connector
+
+#### Pseudocode
+1. Set up MongoDB Atlas and get the connection string.
+2. Install and configure Hadoop.
+3. Download MongoDB Hadoop Connector and add it to the Hadoop classpath.
+4. Write a sample Hadoop job in Java.
+5. Configure the job to use MongoDB as a source or sink.
+6. Submit and run the job using Hadoop command-line tools.
+
+#### Code Example (Java)
+```java
+import com.mongodb.hadoop.MongoInputFormat;
+import com.mongodb.hadoop.MongoOutputFormat;
+import com.mongodb.hadoop.io.BSONWritable;
+import com.mongodb.hadoop.io.MongoUpdateWritable;
+import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
+
+import java.io.IOException;
+
+public class MongoDBHadoopJob {
+
+    public static class MongoMapper extends Mapper<Object, BSONWritable, Text, Text> {
+        public void map(Object key, BSONWritable value, Context context) throws IOException, InterruptedException {
+            // Map logic here
+        }
+    }
+
+    public static class MongoReducer extends Reducer<Text, Text, Text, MongoUpdateWritable> {
+        public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
+            // Reduce logic here
+        }
+    }
+
+    public static void main(String[] args) throws Exception {
+        Configuration conf = new Configuration();
+        conf.set("mongo.input.uri",
+
+ "
+
+mongodb://<username>:<password>@<cluster-url>/abj.bigdata");
+        conf.set("mongo.output.uri", "mongodb://<username>:<password>@<cluster-url>/abj.bigdata");
+
+        Job job = Job.getInstance(conf, "MongoDB Hadoop Job");
+        job.setJarByClass(MongoDBHadoopJob.class);
+        job.setMapperClass(MongoMapper.class);
+        job.setReducerClass(MongoReducer.class);
+        job.setOutputKeyClass(Text.class);
+        job.setOutputValueClass(Text.class);
+        job.setInputFormatClass(MongoInputFormat.class);
+        job.setOutputFormatClass(MongoOutputFormat.class);
+
+        System.exit(job.waitForCompletion(true) ? 0 : 1);
+    }
+}
+```
+
+#### Running the Job
+1. Compile the Java code.
+2. Submit the job using Hadoop command-line tools:
+   ```powershell
+   hadoop jar path/to/your/jarfile.jar MongoDBHadoopJob
+   ```
+
+This is a high-level overview. Each step may require more detailed configuration based on your specific environment and requirements.
+
+I am totally new to MongoDB & Atlas so please take bit by bit approach - Create a MongoDB Atlas Account: Already created. Now next How to create a cluster, load sample data & Get connection string.
+
+### Step-by-Step Guide to Set Up MongoDB Atlas
+
+#### Step 1: Create a Cluster
+1. **Log in to MongoDB Atlas**: Go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and log in with your credentials.
+2. **Create a New Project**:
+   - Click on the "Projects" tab on the left sidebar.
+   - Click on "New Project".
+   - Enter a project name and click "Next".
+3. **Create a Cluster**:
+   - In your new project, click on "Build a Cluster".
+   - Choose a cloud provider and region.
+   - Select the cluster tier (e.g., M0 Sandbox for free tier).
+   - Click "Create Cluster".
+
+#### Step 2: Load Sample Data
+1. **Access Cluster**:
+   - Once the cluster is created, click on "Clusters" in the left sidebar.
+   - Click on the "Collections" button for your cluster.
+2. **Load Sample Data**:
+   - In the Collections view, click on "Add My Own Data" or "Load Sample Dataset".
+   - If you choose "Load Sample Dataset", MongoDB Atlas will automatically load sample data into your cluster.
+
+#### Step 3: Get Connection String
+1. **Access Cluster**:
+   - Go to the "Clusters" tab.
+   - Click on the "Connect" button for your cluster.
+2. **Whitelist IP Address**:
+   - In the connection dialog, click on "Add Your Current IP Address" to whitelist your IP.
+   - Alternatively, you can add a range of IP addresses.
+3. **Create Database User**:
+   - Create a new database user with a username and password.
+   - Assign appropriate roles to the user.
+4. **Get Connection String**:
+   - After whitelisting your IP and creating a user, you will see the connection string.
+   - Copy the connection string. It will look something like this:
+     ```
+     mongodb+srv://<username>:<password>@<cluster-url>/test?retryWrites=true&w=majority
+     ```
+
+### Example Connection String
+Replace `<username>`, `<password>`, and `<cluster-url>` with your actual credentials and cluster URL:
+```
+mongodb+srv://myUser:myPassword@cluster0.mongodb.net/abj.bigdata?retryWrites=true&w=majority
+```
+
+### Next Steps
+Once you have the connection string, you can proceed to integrate MongoDB with Hadoop using the MongoDB Hadoop Connector as described in the previous steps.### Next Steps
+Once you have the connection string, you can proceed to integrate MongoDB with Hadoop using the MongoDB Hadoop Connector as described in the previous steps.
+
+Yes, you should proceed by clicking on "Choose a connection method". Here are the detailed steps:
+
+### Step-by-Step Guide to Connect to Your MongoDB Atlas Cluster
+
+#### Step 1: Add a Connection IP Address
+1. **Whitelist IP Address**:
+   - Your current IP address (49.47.217.163) has been added to enable local connectivity.
+   - You can add more IP addresses later in the "Network Access" section.
+
+#### Step 2: Create a Database User
+1. **Create Database User**:
+   - A username (`nhariharl`) and password (`zi66aQAR2CdQrORO`) have been autogenerated.
+   - You can use these credentials or create your own.
+   - Click on "Create Database User" to finalize the user creation.
+
+#### Step 3: Choose a Connection Method
+1. **Choose a Connection Method**:
+   - Click on "Choose a connection method".
+   - You will be presented with several options to connect to your MongoDB cluster.
+
+#### Step 4: Get Connection String
+1. **Connect Your Application**:
+   - Select "Connect your application".
+   - Choose the driver (e.g., "Java" if you are using Java).
+   - Copy the connection string provided. It will look something like this:
+     ```
+     mongodb+srv://nhariharl:zi66aQAR2CdQrORO@cluster0.mongodb.net/abj.bigdata?retryWrites=true&w=majority
+     ```
+
+### Example Connection String
+Replace `<username>`, `<password>`, and `<cluster-url>` with your actual credentials and cluster URL:
+```
+mongodb+srv://nhariharl:zi66aQAR2CdQrORO@cluster0.mongodb.net/abj.bigdata?retryWrites=true&w=majority
+```
+
+### Next Steps
+Once you have the connection string, you can proceed to integrate MongoDB with Hadoop using the MongoDB Hadoop Connector as described in the previous steps.### Next Steps
+Once you have the connection string, you can proceed to integrate MongoDB with Hadoop using the MongoDB Hadoop Connector as described in the previous steps.
+
+Yes, using the MongoDB extension for VS Code can simplify working with your MongoDB data directly from your VS Code environment. Here are the steps to set it up:
+
+### Step-by-Step Guide to Use MongoDB for VS Code
+
+#### Step 1: Install MongoDB Extension for VS Code
+1. **Open VS Code**.
+2. **Go to Extensions**:
+   - Click on the Extensions icon in the Activity Bar on the side of the window.
+3. **Search for MongoDB**:
+   - In the Extensions view, type "MongoDB" in the search bar.
+4. **Install MongoDB for VS Code**:
+   - Find the "MongoDB for VS Code" extension and click "Install".
+
+#### Step 2: Connect to Your MongoDB Atlas Cluster
+1. **Open the MongoDB Extension**:
+   - Click on the MongoDB icon in the Activity Bar.
+2. **Add a New Connection**:
+   - Click on "Add Connection".
+3. **Enter Connection String**:
+   - Paste the connection string you obtained earlier:
+     ```
+     mongodb+srv://nhariharl:zi66aQAR2CdQrORO@cluster0.mongodb.net/abj.bigdata?retryWrites=true&w=majority
+     ```
+   - Click "Connect".
+
+#### Step 3: Explore Your Data
+1. **View Databases and Collections**:
+   - Once connected, you can view your databases and collections in the MongoDB view.
+2. **Run Queries**:
+   - You can run queries directly from VS Code by opening a new MongoDB playground or using the integrated MongoDB shell.
+
+### Example: Running a Query in MongoDB Playground
+1. **Open a New Playground**:
+   - Click on the "New MongoDB Playground" button.
+2. **Write a Query**:
+   - Write a query to fetch data from your collection. For example:
+     ```javascript
+     use('abj.bigdata');
+     db.collection('yourCollectionName').find({});
+     ```
+3. **Run the Query**:
+   - Click on the "Play" button to execute the query and see the results.
+
+Using the MongoDB extension for VS Code can greatly enhance your productivity by allowing you to manage and query your MongoDB data directly within your development environment.3. **Run the Query**:
+   - Click on the "Play" button to execute the query and see the results.
+
+Using the MongoDB extension for VS Code can greatly enhance your productivity by allowing you to manage and query your MongoDB data directly within your development environment.
+
+Connect to ClusterAbj
+Set up connection security
+Choose a connection method
+3
+Connect
+Connecting with MongoDB for VS Code
+1. Install MongoDB for VS Code.
+In VS Code, open "Extensions" in the left navigation and search for "MongoDB for VS Code." Select the extension and click install.
+2. In VS Code, open the Command Palette.
+Click on "View" and open "Command Palette."
+Search "MongoDB: Connect" on the Command Palette and click on "Connect with Connection String."
+3. Connect to your MongoDB deployment.
+Paste your connection string into the Command Palette.
+
+Show Password
+mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/
+
+The password for nharihar1 is included in the connection string for your first time setup. This password will not be available again after exiting this connect flow.
+4. Click “Create New Playground” in MongoDB for VS Code to get started.
+Learn more about Playgrounds 
+RESOURCES
+Connect to MongoDB through VSCode
+Explore your data with playgrounds
+Access your Database Users
+Troubleshoot Connections
+
+
+### Step-by-Step Guide to Connect to MongoDB Atlas Using MongoDB for VS Code
+
+#### Step 1: Install MongoDB for VS Code
+1. **Open VS Code**.
+2. **Go to Extensions**:
+   - Click on the Extensions icon in the Activity Bar on the side of the window.
+3. **Search for MongoDB**:
+   - In the Extensions view, type "MongoDB for VS Code" in the search bar.
+4. **Install MongoDB for VS Code**:
+   - Find the "MongoDB for VS Code" extension and click "Install".
+
+#### Step 2: Open the Command Palette
+1. **Open Command Palette**:
+   - Click on "View" in the top menu.
+   - Select "Command Palette" or press `Ctrl+Shift+P`.
+
+#### Step 3: Connect to Your MongoDB Deployment
+1. **Search for MongoDB Connect**:
+   - In the Command Palette, type "MongoDB: Connect".
+   - Select "Connect with Connection String".
+2. **Paste Connection String**:
+   - Paste the following connection string into the Command Palette:
+     ```
+     mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/
+     ```
+   - Press Enter to connect.
+
+#### Step 4: Create a New Playground
+1. **Create New Playground**:
+   - Click on "Create New Playground" in the MongoDB for VS Code extension.
+2. **Write and Run Queries**:
+   - Write your MongoDB queries in the playground.
+   - Click the "Play" button to execute the queries and see the results.
+
+### Example: Running a Query in MongoDB Playground
+1. **Open a New Playground**:
+   - Click on the "New MongoDB Playground" button.
+2. **Write a Query**:
+   - Write a query to fetch data from your collection. For example:
+     ```javascript
+     use('abj.bigdata');
+     db.collection('yourCollectionName').find({});
+     ```
+3. **Run the Query**:
+   - Click on the "Play" button to execute the query and see the results.
+
+### Resources
+- **Connect to MongoDB through VSCode**: Learn more about connecting to MongoDB using VS Code.
+- **Explore your data with playgrounds**: Use playgrounds to interact with your MongoDB data.
+- **Access your Database Users**: Manage your database users.
+- **Troubleshoot Connections**: Find solutions to common connection issues.
+
+Using the MongoDB extension for VS Code can greatly enhance your productivity by allowing you to manage and query your MongoDB data directly within your development environment.3. **Run the Query**:
+   - Click on the "Play" button to execute the query and see the results.
+
+### Resources
+- **Connect to MongoDB through VSCode**: Learn more about connecting to MongoDB using VS Code.
+- **Explore your data with playgrounds**: Use playgrounds to interact with your MongoDB data.
+- **Access your Database Users**: Manage your database users.
+- **Troubleshoot Connections**: Find solutions to common connection issues.
+
+Using the MongoDB extension for VS Code can greatly enhance your productivity by allowing you to manage and query your MongoDB data directly within your development environment.
+
+/* global use, db */
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+// The result of the last command run in a playground is shown on the results panel.
+// By default the first 20 documents will be returned with a cursor.
+// Use 'console.log()' to print to the debug output.
+// For more documentation on playgrounds please refer to
+// https://www.mongodb.com/docs/mongodb-vscode/playgrounds/
+
+// Select the database to use.
+use('mongodbVSCodePlaygroundDB');
+
+// Insert a few documents into the sales collection.
+db.getCollection('sales').insertMany([
+  { 'item': 'abc', 'price': 10, 'quantity': 2, 'date': new Date('2014-03-01T08:00:00Z') },
+  { 'item': 'jkl', 'price': 20, 'quantity': 1, 'date': new Date('2014-03-01T09:00:00Z') },
+  { 'item': 'xyz', 'price': 5, 'quantity': 10, 'date': new Date('2014-03-15T09:00:00Z') },
+  { 'item': 'xyz', 'price': 5, 'quantity': 20, 'date': new Date('2014-04-04T11:21:39.736Z') },
+  { 'item': 'abc', 'price': 10, 'quantity': 10, 'date': new Date('2014-04-04T21:23:13.331Z') },
+  { 'item': 'def', 'price': 7.5, 'quantity': 5, 'date': new Date('2015-06-04T05:08:13Z') },
+  { 'item': 'def', 'price': 7.5, 'quantity': 10, 'date': new Date('2015-09-10T08:43:00Z') },
+  { 'item': 'abc', 'price': 10, 'quantity': 5, 'date': new Date('2016-02-06T20:20:13Z') },
+]);
+
+// Run a find command to view items sold on April 4th, 2014.
+const salesOnApril4th = db.getCollection('sales').find({
+  date: { $gte: new Date('2014-04-04'), $lt: new Date('2014-04-05') }
+}).count();
+
+// Print a message to the output window.
+console.log(`${salesOnApril4th} sales occurred in 2014.`);
+
+// Here we run an aggregation and open a cursor to the results.
+// Use '.toArray()' to exhaust the cursor to return the whole result set.
+// You can use '.hasNext()/.next()' to iterate through the cursor page by page.
+db.getCollection('sales').aggregate([
+  // Find all of the sales that occurred in 2014.
+  { $match: { date: { $gte: new Date('2014-01-01'), $lt: new Date('2015-01-01') } } },
+  // Group the total sales for each product.
+  { $group: { _id: '$item', totalSaleAmount: { $sum: { $multiply: [ '$price', '$quantity' ] } } } }
+]);
+
+
+### Explanation of the MongoDB Playground Code
+
+This MongoDB playground script performs several operations on a MongoDB database. Let's break down each part:
+
+#### 1. Select the Database
+```javascript
+use('mongodbVSCodePlaygroundDB');
+```
+This command selects the database named `mongodbVSCodePlaygroundDB`.
+
+#### 2. Insert Documents into the `sales` Collection
+```javascript
+db.getCollection('sales').insertMany([
+  { 'item': 'abc', 'price': 10, 'quantity': 2, 'date': new Date('2014-03-01T08:00:00Z') },
+  { 'item': 'jkl', 'price': 20, 'quantity': 1, 'date': new Date('2014-03-01T09:00:00Z') },
+  { 'item': 'xyz', 'price': 5, 'quantity': 10, 'date': new Date('2014-03-15T09:00:00Z') },
+  { 'item': 'xyz', 'price': 5, 'quantity': 20, 'date': new Date('2014-04-04T11:21:39.736Z') },
+  { 'item': 'abc', 'price': 10, 'quantity': 10, 'date': new Date('2014-04-04T21:23:13.331Z') },
+  { 'item': 'def', 'price': 7.5, 'quantity': 5, 'date': new Date('2015-06-04T05:08:13Z') },
+  { 'item': 'def', 'price': 7.5, 'quantity': 10, 'date': new Date('2015-09-10T08:43:00Z') },
+  { 'item': 'abc', 'price': 10, 'quantity': 5, 'date': new Date('2016-02-06T20:20:13Z') },
+]);
+```
+This command inserts multiple documents into the `sales` collection. Each document represents a sale with fields for `item`, `price`, `quantity`, and `date`.
+
+#### 3. Find Sales on April 4th, 2014
+```javascript
+const salesOnApril4th = db.getCollection('sales').find({
+  date: { $gte: new Date('2014-04-04'), $lt: new Date('2014-04-05') }
+}).count();
+```
+This command finds and counts the number of sales that occurred on April 4th, 2014.
+
+#### 4. Print the Number of Sales
+```javascript
+console.log(`${salesOnApril4th} sales occurred in 2014.`);
+```
+This command prints the number of sales that occurred on April 4th, 2014, to the output window.
+
+#### 5. Aggregate Total Sales for Each Product in 2014
+```javascript
+db.getCollection('sales').aggregate([
+  { $match: { date: { $gte: new Date('2014-01-01'), $lt: new Date('2015-01-01') } } },
+  { $group: { _id: '$item', totalSaleAmount: { $sum: { $multiply: [ '$price', '$quantity' ] } } } }
+]);
+```
+This aggregation pipeline performs the following steps:
+1. **Match**: Finds all sales that occurred in 2014.
+2. **Group**: Groups the sales by `item` and calculates the total sale amount for each product by multiplying `price` and `quantity`.
+
+### Playground Result
+The result of the aggregation is:
+```json
+[
+  {
+    "_id": "jkl",
+    "totalSaleAmount": 20
+  },
+  {
+    "_id": "xyz",
+    "totalSaleAmount": 150
+  },
+  {
+    "_id": "abc",
+    "totalSaleAmount": 120
+  }
+]
+```
+This result shows the total sale amount for each product ([`jkl`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22PLAYGROUND_RESULT_SCHEME%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FPlayground%20Result%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A2%2C%22character%22%3A12%7D%7D%5D%2C%22a8ecbc14-1873-44bd-8a4e-ba6b7de490de%22%5D "Go to definition"), [`xyz`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22PLAYGROUND_RESULT_SCHEME%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FPlayground%20Result%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A6%2C%22character%22%3A12%7D%7D%5D%2C%22a8ecbc14-1873-44bd-8a4e-ba6b7de490de%22%5D "Go to definition"), and [`abc`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22PLAYGROUND_RESULT_SCHEME%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2FPlayground%20Result%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A10%2C%22character%22%3A12%7D%7D%5D%2C%22a8ecbc14-1873-44bd-8a4e-ba6b7de490de%22%5D "Go to definition")) in 2014.
+
+### Summary
+- **Database**: `mongodbVSCodePlaygroundDB`
+- **Collection**: `sales`
+- **Operations**:
+  - Insert multiple sales documents.
+  - Find and count sales on a specific date.
+  - Aggregate total sales for each product in a specific year.
+
+You can run this playground script in VS Code to interact with your MongoDB data and see the results in the output panel.
+
+Creating new DB & Collection:
+To create a new database named `jawa` and a collection named `shop` using the MongoDB CLI, follow these steps:
+
+### Step-by-Step Guide to Create a New Database and Collection Using MongoDB CLI
+
+#### Step 1: Open MongoDB Shell
+1. **Open Terminal**:
+   - Open a terminal or command prompt on your machine.
+
+2. **Connect to MongoDB**:
+   - Use the `mongo` command to connect to your MongoDB Atlas instance using the provided connection string.
+   - Example command to connect to MongoDB Atlas:
+     ```sh
+     mongo "mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/jawa?retryWrites=true&w=majority"
+     ```
+
+#### Step 2: Create a New Database and Collection
+1. **Switch to the New Database**:
+   - Use the `use` command to switch to the new database. If the database does not exist, MongoDB will create it when you insert the first document.
+   - Example:
+     ```sh
+     use jawa
+     ```
+
+2. **Create a New Collection and Insert Documents**:
+   - Use the `insertMany` command to create a new collection named `shop` and insert documents into it.
+   - Example:
+     ```sh
+     db.shop.insertMany([
+       { item: 'abc', price: 10, quantity: 2, date: new Date('2014-03-01T08:00:00Z') },
+       { item: 'jkl', price: 20, quantity: 1, date: new Date('2014-03-01T09:00:00Z') },
+       { item: 'xyz', price: 5, quantity: 10, date: new Date('2014-03-15T09:00:00Z') },
+       { item: 'xyz', price: 5, quantity: 20, date: new Date('2014-04-04T11:21:39.736Z') },
+       { item: 'abc', price: 10, quantity: 10, date: new Date('2014-04-04T21:23:13.331Z') },
+       { item: 'def', price: 7.5, quantity: 5, date: new Date('2015-06-04T05:08:13Z') },
+       { item: 'def', price: 7.5, quantity: 10, date: new Date('2015-09-10T08:43:00Z') },
+       { item: 'abc', price: 10, quantity: 5, date: new Date('2016-02-06T20:20:13Z') }
+     ])
+     ```
+
+### Example Commands
+
+1. **Connect to MongoDB Atlas**:
+   ```sh
+   mongo "mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/jawa?retryWrites=true&w=majority"
+   ```
+
+2. **Create a New Database and Collection**:
+   ```sh
+   use jawa
+   db.shop.insertMany([
+     { item: 'abc', price: 10, quantity: 2, date: new Date('2014-03-01T08:00:00Z') },
+     { item: 'jkl', price: 20, quantity: 1, date: new Date('2014-03-01T09:00:00Z') },
+     { item: 'xyz', price: 5, quantity: 10, date: new Date('2014-03-15T09:00:00Z') },
+     { item: 'xyz', price: 5, quantity: 20, date: new Date('2014-04-04T11:21:39.736Z') },
+     { item: 'abc', price: 10, quantity: 10, date: new Date('2014-04-04T21:23:13.331Z') },
+     { item: 'def', price: 7.5, quantity: 5, date: new Date('2015-06-04T05:08:13Z') },
+     { item: 'def', price: 7.5, quantity: 10, date: new Date('2015-09-10T08:43:00Z') },
+     { item: 'abc', price: 10, quantity: 5, date: new Date('2016-02-06T20:20:13Z') }
+   ])
+   ```
+
+### Summary
+- **Connect to MongoDB**: Use the `mongo` command with your connection string.
+- **Create Database**: Use the `use` command to switch to the new database.
+- **Create Collection and Insert Documents**: Use the `insertMany` command to create a new collection and insert documents.
+
+By following these steps, you can create a new database named `jawa` and a collection named `shop` using the MongoDB CLI.
+
+
+
+It looks like the `mongo` command(CLI) is not recognized on your system, which means the MongoDB shell (`mongo`) is not installed or not added to your system's PATH. Here are the steps to resolve this issue:
+
+### Step-by-Step Guide to Install MongoDB Shell and Add to PATH
+
+#### Step 1: Install MongoDB Shell
+1. **Download MongoDB Shell**:
+   - Go to the [MongoDB Download Center](https://www.mongodb.com/try/download/shell).
+   - Select your operating system (Windows) and download the MongoDB Shell (mongosh).
+
+2. **Install MongoDB Shell**:
+   - Run the installer and follow the installation instructions.
+
+#### Step 2: Add MongoDB Shell to PATH
+1. **Locate Installation Directory**:
+   - Find the directory where MongoDB Shell (`mongosh`) is installed. By default, it might be something like `C:\Program Files\MongoDB\Server\<version>\bin`.
+
+2. **Add to System PATH**:
+   - Open the Start Menu and search for "Environment Variables".
+   - Click on "Edit the system environment variables".
+   - In the System Properties window, click on the "Environment Variables" button.
+   - In the Environment Variables window, find the "Path" variable in the "System variables" section and select it.
+   - Click on "Edit" and then "New" to add a new entry.
+   - Enter the path to the MongoDB Shell installation directory (e.g., `C:\Program Files\MongoDB\Server\<version>\bin`).
+   - Click "OK" to close all windows.
+
+#### Step 3: Verify Installation
+1. **Open a New Terminal**:
+   - Open a new terminal or command prompt.
+2. **Verify `mongosh` Command**:
+   - Type `mongosh` and press Enter. You should see the MongoDB Shell prompt.
+
+### Step 4: Connect to MongoDB Atlas and Create Database and Collection
+1. **Connect to MongoDB Atlas**:
+   - Use the `mongosh` command to connect to your MongoDB Atlas instance using the provided connection string.
+   - Example command to connect to MongoDB Atlas:
+     ```sh
+     mongosh "mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/jawa?retryWrites=true&w=majority"
+     ```
+
+2. **Create a New Database and Collection**:
+   - Use the following commands to create a new database named [`jawa`] and a collection named [`shop`]
+     ```sh
+     use jawa
+     db.shop.insertMany([
+       { item: 'abc', price: 10, quantity: 2, date: new Date('2014-03-01T08:00:00Z') },
+       { item: 'jkl', price: 20, quantity: 1, date: new Date('2014-03-01T09:00:00Z') },
+       { item: 'xyz', price: 5, quantity: 10, date: new Date('2014-03-15T09:00:00Z') },
+       { item: 'xyz', price: 5, quantity: 20, date: new Date('2014-04-04T11:21:39.736Z') },
+       { item: 'abc', price: 10, quantity: 10, date: new Date('2014-04-04T21:23:13.331Z') },
+       { item: 'def', price: 7.5, quantity: 5, date: new Date('2015-06-04T05:08:13Z') },
+       { item: 'def', price: 7.5, quantity: 10, date: new Date('2015-09-10T08:43:00Z') },
+       { item: 'abc', price: 10, quantity: 5, date: new Date('2016-02-06T20:20:13Z') }
+     ])
+     ```
+
+### Summary
+- **Install MongoDB Shell**: Download and install MongoDB Shell (`mongosh`).
+- **Add to PATH**: Add the installation directory to your system's PATH.
+- **Verify Installation**: Open a new terminal and verify the `mongosh` command.
+- **Connect to MongoDB**: Use the `mongosh` command with your connection string.
+- **Create Database and Collection**: Use the [`use`]and [`insertMany`] commands to create a new database and collection.
+
+By following these steps, you can resolve the `CommandNotFoundException` and successfully create a new database named [`jawa`] and a collection named [`shop`] using the MongoDB CLI.
+
+It looks like the content of your file is being interpreted as JSON, but it contains JavaScript code. To run this JavaScript code, you need to save it in a `.js` file and execute it using Node.js. Here are the steps to do that:
+
+### Step-by-Step Guide to Run the JavaScript Code
+
+1. **Save the Code as a JavaScript File**:
+   - Create a new file named `insertMany.js` and paste the following code into it:
+
+```javascript
+const { MongoClient } = require('mongodb');
+const uri = "mongodb+srv://nharihar1:zi66aQAR2CdQrORO@clusterabj.dqz87.mongodb.net/jawa?retryWrites=true&w=majority";
+const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+
+async function run() {
+  try {
+    await client.connect();
+    const database = client.db('jawa');
+    const collection = database.collection('shop');
+
+    // Insert multiple documents
+    const result = await collection.insertMany([
+      { item: 'abc', price: 10, quantity: 2, date: new Date('2014-03-01T08:00:00Z') },
+      { item: 'jkl', price: 20, quantity: 1, date: new Date('2014-03-01T09:00:00Z') },
+      { item: 'xyz', price: 5, quantity: 10, date: new Date('2014-03-15T09:00:00Z') },
+      { item: 'xyz', price: 5, quantity: 20, date: new Date('2014-04-04T11:21:39.736Z') },
+      { item: 'abc', price: 10, quantity: 10, date: new Date('2014-04-04T21:23:13.331Z') },
+      { item: 'def', price: 7.5, quantity: 5, date: new Date('2015-06-04T05:08:13Z') },
+      { item: 'def', price: 7.5, quantity: 10, date: new Date('2015-09-10T08:43:00Z') },
+      { item: 'abc', price: 10, quantity: 5, date: new Date('2016-02-06T20:20:13Z') }
+    ]);
+
+    console.log(`${result.insertedCount} documents were inserted`);
+  } finally {
+    await client.close();
+  }
+}
+
+run().catch(console.dir);
+```
+
+2. **Install MongoDB Node.js Driver**:
+   - Open a terminal and navigate to the directory where you saved the `insertMany.js` file.
+   - Run the following command to install the MongoDB Node.js driver:
+     ```sh
+     npm install mongodb
+     ```
+
+3. **Run the Script**:
+   - Execute the script using Node.js:
+     ```sh
+     node insertMany.js
+     ```
+
+### Summary
+- **Save the Code as a JavaScript File**: Create a new file named `insertMany.js` and paste the code into it.
+- **Install MongoDB Node.js Driver**: Run `npm install mongodb` to install the MongoDB Node.js driver.
+- **Run the Script**: Execute the script using Node.js with `node insertMany.js`.
+
+By following these steps, you should be able to run the code and insert multiple documents into the [`shop`] collection in your MongoDB Atlas instance.
+
+

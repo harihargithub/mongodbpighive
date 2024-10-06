@@ -1,0 +1,178 @@
+Also ref notes.txt
+
+Atlas atlas-1116e1-shard-0 [primary] jawa>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+Atlas atlas-1116e1-shard-0 [primary] jawa> show dbs
+jawa                        72.00 KiB
+mongodbVSCodePlaygroundDB  112.00 KiB
+admin                      348.00 KiB
+local                       15.98 GiB
+Atlas atlas-1116e1-shard-0 [primary] jawa> use mongodbVSCodePlaygroundDB
+switched to db mongodbVSCodePlaygroundDB
+Atlas atlas-1116e1-shard-0 [primary] mongodbVSCodePlaygroundDB>
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+Atlas atlas-1116e1-shard-0 [primary] mongodbVSCodePlaygroundDB> show collections
+sales
+store
+Atlas atlas-1116e1-shard-0 [primary] mongodbVSCodePlaygroundDB> use admin
+switched to db admin
+Atlas atlas-1116e1-shard-0 [primary] admin> show collections
+
+Atlas atlas-1116e1-shard-0 [primary] admin> use local
+switched to db local
+Atlas atlas-1116e1-shard-0 [primary] local> show collections
+oplog.rs
+Atlas atlas-1116e1-shard-0 [primary] local>
+
+
+show dbs
+use jawa
+show collections
+use use mongodbVSCodePlaygroundD
+show collections
+use admin
+show collections
+show local
+show collections
+
+To perform the commands `show dbs`, `use jawa`, and `show collections` in the MongoDB Shell from the MongoDB Atlas web interface, follow these steps:
+
+### Step-by-Step Guide
+
+1. **Access the MongoDB Atlas Web Interface**:
+   - Open your web browser and navigate to the MongoDB Atlas web interface at [https://cloud.mongodb.com](https://cloud.mongodb.com).
+
+2. **Navigate to Your Cluster**:
+   - Select your project and navigate to the cluster where your database is hosted.
+
+3. **Open the MongoDB Shell (mongosh)**:
+   - In the cluster view, click on the "Connect" button.
+   - Choose "Connect with MongoDB Shell" (mongosh).
+   - Follow the instructions to download and install the MongoDB Shell if you haven't already.
+
+4. **Connect to Your Cluster Using mongosh**:
+   - Copy the connection string provided in the MongoDB Atlas web interface.
+   - Open your terminal or command prompt.
+   - Paste the connection string into your terminal and press Enter to connect to your cluster. The connection string will look something like this:
+     ```sh
+     mongosh "mongodb+srv://<cluster-url>/test" --username <username>
+     ```
+
+5. **Run the Commands in mongosh**:
+   - Once connected, you can run the following commands in the MongoDB Shell:
+     ```sh
+     show dbs
+     use jawa
+     show collections
+     ```
+
+### Example Commands
+
+1. **Connect to Your Cluster**:
+   ```sh
+   mongosh "mongodb+srv://<cluster-url>/test" --username <username>
+   ```
+
+2. **Show All Databases**:
+   ```sh
+   show dbs
+   ```
+
+3. **Switch to the [`jawa`](command:_github.copilot.openSymbolFromReferences?%5B%22%22%2C%5B%7B%22uri%22%3A%7B%22scheme%22%3A%22file%22%2C%22authority%22%3A%22%22%2C%22path%22%3A%22%2Fc%3A%2FUsers%2Fnhari%2FOneDrive%2FDocuments%2Fsencha%2Fmongodbpighive%2Fbigdata%2Fqueries.txt%22%2C%22query%22%3A%22%22%2C%22fragment%22%3A%22%22%7D%2C%22pos%22%3A%7B%22line%22%3A26%2C%22character%22%3A4%7D%7D%5D%2C%22c1d940da-edff-43f5-b78f-6828435ee152%22%5D "Go to definition") Database**:
+   ```sh
+   use jawa
+   ```
+
+4. **Show Collections in the [`jawa`] Database**:
+   ```sh
+   show collections
+   ```
+
+### Summary
+- **Access the MongoDB Atlas Web Interface**: Navigate to [https://cloud.mongodb.com](https://cloud.mongodb.com).
+- **Navigate to Your Cluster**: Select your project and cluster.
+- **Open the MongoDB Shell (mongosh)**: Click "Connect" and choose "Connect with MongoDB Shell".
+- **Connect to Your Cluster Using mongosh**: Copy the connection string and run it in your terminal.
+- **Run the Commands in mongosh**: Execute `show dbs`, `use jawa`, and `show collections` in the MongoDB Shell.
+
+By following these steps, you should be able to connect to your MongoDB Atlas cluster using the MongoDB Shell and run the desired commands to list databases, switch to the [`jawa`] database, and show collections.
+
+Mongosh(2.0.0) lets you connect to MongoDB to work with your data and configure your database. 2.0.0 or greater is required to work with Atlas Stream Processing
+
+2. Run your connection string in your command line
+Use this connection string in your application
+
+mongosh "mongodb+srv://clusterabj.dqz87.mongodb.net/" --apiVersion 1 --username nharihar1
+
+You will be prompted for the password for the Database User, nharihar1. When entering your password, make sure all special characters are 
+URL encoded
+
+To connect to your MongoDB Atlas cluster using the MongoDB Shell ([`mongosh`] follow these steps:
+
+### Step-by-Step Guide
+
+1. **Ensure You Have mongosh Installed**:
+   - Verify that you have [`mongosh`] installed. Based on your notes, it seems you have [`mongosh`] version 2.3.1 installed at `C:\Program Files\mongosh-2.3.1-win32-x64\mongosh-2.3.1-win32-x64\bin`.
+
+2. **Open Command Prompt**:
+   - Open a Command Prompt window.
+
+3. **Navigate to the mongosh Directory** (if necessary):
+   - If [`mongosh`] is not in your system's PATH, navigate to the directory where [`mongosh`] is installed:
+     ```sh
+     cd "C:\Program Files\mongosh-2.3.1-win32-x64\mongosh-2.3.1-win32-x64\bin"
+     ```
+
+4. **Run the Connection String**:
+   - Use the provided connection string to connect to your MongoDB Atlas cluster. You will be prompted to enter your password:
+     ```sh
+     mongosh "mongodb+srv://clusterabj.dqz87.mongodb.net/" --apiVersion 1 --username nharihar1
+     ```
+
+5. **Enter Your Password**:
+   - When prompted, enter the password for the database user [`nharihar1`] Ensure that any special characters in your password are URL encoded.
+
+6. **Run MongoDB Commands**:
+   - Once connected, you can run the following commands to list databases, switch to the `jawa` database, and show collections:
+     ```sh
+     show dbs
+     use jawa
+     show collections
+     ```
+
+### Example Commands
+
+1. **Navigate to the mongosh Directory** (if necessary):
+   ```sh
+   cd "C:\Program Files\mongosh-2.3.1-win32-x64\mongosh-2.3.1-win32-x64\bin"
+   ```
+
+2. **Run the Connection String**:
+   ```sh
+   mongosh "mongodb+srv://clusterabj.dqz87.mongodb.net/" --apiVersion 1 --username nharihar1
+   ```
+
+3. **Enter Your Password**:
+   - Enter the password when prompted.
+
+4. **Run MongoDB Commands**:
+   ```sh
+   show dbs
+   use jawa
+   show collections
+   ```
+
+### Summary
+- **Ensure You Have mongosh Installed**: Verify that [`mongosh`] is installed.
+- **Open Command Prompt**: Open a Command Prompt window.
+- **Navigate to the mongosh Directory** (if necessary): Use `cd` to navigate to the [`mongosh`] directory if it is not in your PATH.
+- **Run the Connection String**: Use the provided connection string to connect to your MongoDB Atlas cluster.
+- **Enter Your Password**: Enter the password for the database user [`nharihar1`]
+- **Run MongoDB Commands**: Execute `show dbs`, `use jawa`, and `show collections` to interact with your MongoDB instance.
+
+By following these steps, you should be able to connect to your MongoDB Atlas cluster using [`mongosh`]and run the desired commands to list databases, switch to the `jawa` database, and show collections.
+
+
+const fs = require('fs');
+const output = db.oplog.rs.find().toArray();
+fs.writeFileSync('C:/Users/nhari/OneDrive/Documents/sencha/mongodbpighive/bigdata/oplog.txt', JSON.stringify(output, null, 2));
