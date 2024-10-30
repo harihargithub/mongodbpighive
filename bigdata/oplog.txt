@@ -1,3 +1,6 @@
+Also ref C:\Users\nhari\OneDrive\Documents\sencha\mongodbpighive\bigdata\queries.txt  ; notes.txt ; "C:\Users\nhari\OneDrive\Documents\training sessions\bigdata\atlas cloud mongodb.docx" & mongoDBop.docx.
+
+
 [
   {
     "op": "c",

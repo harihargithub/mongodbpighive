@@ -1,4 +1,4 @@
-Also ref notes.txt
+Also ref C:\Users\nhari\OneDrive\Documents\sencha\mongodbpighive\bigdata\notes.txt  ; oplog.txt ; "C:\Users\nhari\OneDrive\Documents\training sessions\bigdata\atlas cloud mongodb.docx" & mongoDBop.docx.
 
 Atlas atlas-1116e1-shard-0 [primary] jawa>
 (To exit, press Ctrl+C again or Ctrl+D or type .exit)

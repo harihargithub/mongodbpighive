@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive HTML, CSS & JavaScript Demo</title>
+    <style>
+        /* Basic styling for demonstration */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            color: #34495e;
+        }
+
+        #actionButton {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-size: 1.2em;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the HTML, CSS & JS Demo</h1>
+    <p>This is a basic demo to showcase HTML, CSS, and JavaScript skills.</p>
+    <button id="actionButton">Click Me</button>
+    <div id="output"></div>
+
+    <script>
+        // JavaScript functionality
+        document.getElementById("actionButton").addEventListener("click", function () {
+            document.getElementById("output").textContent = "Button clicked! JavaScript is working!";
+        });
+    </script>
+</body>
+
+</html>

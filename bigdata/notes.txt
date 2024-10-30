@@ -1,5 +1,9 @@
 
+ node insertrecshop.js
+
 (base) PS C:\Users\nhari\OneDrive\Documents\sencha\mongodbpighive\bigdata> - Opened this fresh folder in VS Code where I have installed MongoDB extension and want to perform study experiment on Mongo DB om Hadoop enviornment
+
+Also ref C:\Users\nhari\OneDrive\Documents\sencha\mongodbpighive\bigdata\queries.txt  ; oplog.txt ; "C:\Users\nhari\OneDrive\Documents\training sessions\bigdata\atlas cloud mongodb.docx" & mongoDBop.docx.
 
 **Connect to MongoDB Atlas**:
    - Use the `mongosh` command to connect to your MongoDB Atlas instance using the provided connection string.
